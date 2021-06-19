@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: gainsboro;
+    width: 100px;
+    max-height: 500px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.fotoc{
+    margin: auto;
+    width: 600px;
+    height: 580px;
+}
+.pac1{
+    background-color: white;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid rgb(168, 167, 167);
+    margin: 5px 5px 10px 5px;
+    width: 320px;
+    height: 300px;
+}
+.fotoa{
+    margin: 0px 5px 0px 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.fotoi{
+    width: 150px;
+    height: 60px;
+    margin: 0px 5px 5px 0px;
+}
+.texto1{
+    background-color: #0095f0;
+    color: white;
+    margin: 10px 40px 5px 40px;
+    padding: 2px;
+    border-radius: 5%;
+    font-weight: bold;
+}
+.texto2{
+    color: #0095f0;
+    margin: 10px 50px 5px 50px;
+    font-weight: bold;
+}
+.pac2{
+    background-color: white;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid  rgb(160, 160, 160);
+    margin: 20px 5px 5px 5px;
+    width: 320px;
+    height: 80px;
+}
+.texto3{
+    margin: 10px 0px 5px 0px;
+}
+.texto4{
+    color: #0095f0;
+    font-weight: bold;
+}
+.texto5{
+    color:  #0095f0;
+    font-weight: bold;
+}
+
+.pac3{
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 5px 5px 5px;
+    width: 320px;
+    height: 110px;
+}
+.texto6{
+    margin: 5px 5px 5px 5px;
+}
+.fotog{
+    width: 100px;
+    height: 50px;
+    margin: 5px 5px 5px 5px;
+}
+.fotob{
+    width: 100px;
+    height: 55px;
+    margin: 5px 5px 5px 5px;
+}
+
+
+/* media queries */
+@media ( max-width: 1024px){
+    body{
+        background-color: white;
+    }
+    .pac1{
+        width: 100%;
+    }
+    .pac2{
+        width: 100%;
+    }
+    .pac3{
+        justify-content: center;
+    }
+    .fotoc{
+        display: none;
+    }
+}
+
+@media ( max-width: 650px){
+   .pac1{
+       width: 90%;
+   }
+   .pac2{
+       width: 90%;
+   }
+
+}
